@@ -59,15 +59,15 @@
 # В списке в качестве ключа испульзуется индекс элементаю
 # В СЛОВАРЕ для определения элемента используется значение ключа(строка, число)
 
-# di = {}
+# # di = {}
 # di = dict()
 # di ['q'] = 'qwerty'
-# print(di)
+# # print(di)
 # di ['w'] = 'werty'
-# print(di)
-# print(di['q'])
-#при вводе данных можно сразу указывать ключ и значение {'h' : 'hi'} - где 'h' - это ключ, а 'hi' - это значение
-# функция del -  удаляет ключ из словаря
+# # print(di)
+# # print(di['q'])
+# #при вводе данных можно сразу указывать ключ и значение {'h' : 'hi'} - где 'h' - это ключ, а 'hi' - это значение
+# # функция del -  удаляет ключ из словаря
 # for item in di:
 #     print(item)
 #     print('{}: {}'.format(item, di[item]))
@@ -105,27 +105,27 @@
 # print(q) # 
 
 
-a = {1, 2, 8}
-b = frozenset(a)
-print(b)
+# a = {1, 2, 8}
+# b = frozenset(a)
+# print(b)
 
 # Гениратор списков! List comprehension
 # list_1 = [exp for item in iterable] - добавляем значение идя по item для коллекции данных
 # list_1 = [exp for item in iterable(if conditional)] - выбока по условию if
 
-list_1 = []
-for i in range(1, 100):
-    list_1.append(i)
-print(list_1)
+# list_1 = []
+# for i in range(1, 100):
+#     list_1.append(i)
+# print(list_1)
 
-list_1 = [i for i in range(1, 100)]
-print(list_1)
+# list_1 = [i for i in range(1, 100)]
+# print(list_1)
 
-list_1 = [i for i in range(1, 100) if i % 2 == 0]
-print(list_1)
+# list_1 = [i for i in range(1, 100) if i % 2 == 0]
+# print(list_1)
 
-list_1 = [(i, i) for i in range(1, 100) if i % 2 == 0] #печать кортежаБ создание павы каждому числу
-print(list_1)
+# list_1 = [(i, i) for i in range(1, 100) if i % 2 == 0] #печать кортежаБ создание павы каждому числу
+# print(list_1)
 
-list_1 = [i * 2 for i in range(10) if i % 2 == 0] # можно так же множать, делить, прибавлять и вычитать
-print(list_1)
+# list_1 = [i * 2 for i in range(10) if i % 2 == 0] # можно так же множать, делить, прибавлять и вычитать
+# print(list_1)
